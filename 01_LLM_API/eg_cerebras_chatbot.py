@@ -47,8 +47,8 @@ while True:
     
     # 스트리밍 응답 받기
     response = client.chat.completions.create(
-        # model="qwen-3-32b",  # Cerebras 모델 사용
-        model="qwen-3-235b-a22b-instruct-2507",
+        model="qwen-3-32b",  # Cerebras 모델 사용
+        # model="qwen-3-235b-a22b-instruct-2507",
         # model="qwen-3-235b-a22b-thinking-2507"
         # model="qwen-3-coder-480b"
         # model="llama-4-scout-17b-16e-instruct"

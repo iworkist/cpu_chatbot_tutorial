@@ -1,8 +1,12 @@
+
 # CPU Chatbot Tutorial
 
 LLM API를 사용한 챗봇 예제 모음 (OpenAI, Ollama, Cerebras)
 
 ## 설치
+
+git clone https://github.com/iworkist/cpu_chatbot_tutorial.git
+
 
 ```bash
 uv sync
@@ -10,11 +14,13 @@ uv sync
 
 ## 환경 변수 설정
 
-`.env` 파일 생성 또는 환경 변수 설정:
+`.env` 파일을 생성하고 환경 변수 설정:
+OPENAI_API_KEY="your_api_key_here"
+CEREBRAS_API_KEY="your_api_key_here"
 
 ```bash
 export OPENAI_API_KEY="your_api_key_here"
-export CEREBRAS_API_KEY="your_api_key_here"  # Cerebras 사용 시
+export CEREBRAS_API_KEY="your_api_key_here"
 ```
 
 ## 실행
