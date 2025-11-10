@@ -1,6 +1,6 @@
 import os
 from openai import OpenAI
-from cerebras.cloud.sdk import Cerebras
+# from cerebras.cloud.sdk import Cerebras
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -14,16 +14,16 @@ load_dotenv()
 # qwen-3-coder-480b (preview)
 # gpt-oss-120b
 
-# # OpenAI API를 사용하여 Cerebras API 클라이언트 초기화
-# client = OpenAI(
-#     base_url="https://api.cerebras.ai/v1",
-#     api_key=os.getenv("CEREBRAS_API_KEY")
-# )
-
-# Cerebras API 클라이언트 초기화
-client = Cerebras(
-    api_key=os.environ.get("CEREBRAS_API_KEY"),  # This is the default and can be omitted
+# OpenAI API를 사용하여 Cerebras API 클라이언트 초기화
+client = OpenAI(
+    base_url="https://api.cerebras.ai/v1",
+    api_key=os.getenv("CEREBRAS_API_KEY")
 )
+
+# # Cerebras API 클라이언트 초기화
+# client = Cerebras(
+#     api_key=os.environ.get("CEREBRAS_API_KEY"),  # This is the default and can be omitted
+# )
 
 
 # 대화 루프 예제
