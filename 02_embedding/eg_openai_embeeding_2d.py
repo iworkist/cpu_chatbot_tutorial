@@ -35,12 +35,14 @@ examples = {
     "positive_food": [
         "This food is absolutely delicious",
         "The taste is amazing and perfect",
-        "I'm impressed by how good this tastes"
+        "I'm impressed by how good this tastes",
+        "SM. I love Indian food. Naan and curry are my favorites."
     ],
     "negative_food": [
         "This food doesn't taste good",
         "The flavor is strange and unpleasant",
-        "I don't want to eat this again"
+        "I don't want to eat this again",
+        "SM. I dislike cucumbers. They have a bitter taste."
     ]
 }
 
